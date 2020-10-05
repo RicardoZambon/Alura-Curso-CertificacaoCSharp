@@ -9,15 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Serialization", "01-Seri
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Collections", "02-Collections", "{1CA9993A-4808-482D-B33D-F8A2372DFDE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySerialization", "Part6\01-Serialization\BinarySerialization\BinarySerialization.csproj", "{41ED6BA3-8C4F-4AF6-8632-328C4FDCC72D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySerialization", "CertificacaoCSharp\Part6\01-Serialization\BinarySerialization\BinarySerialization.csproj", "{41ED6BA3-8C4F-4AF6-8632-328C4FDCC72D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomContract", "Part6\01-Serialization\CustomContract\CustomContract.csproj", "{129F5C4D-7582-45D9-96DC-5335A1B771F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomContract", "CertificacaoCSharp\Part6\01-Serialization\CustomContract\CustomContract.csproj", "{129F5C4D-7582-45D9-96DC-5335A1B771F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataContract", "Part6\01-Serialization\DataContract\DataContract.csproj", "{54FE3EF3-4C4A-4D0C-B49F-AA248555C333}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataContract", "CertificacaoCSharp\Part6\01-Serialization\DataContract\DataContract.csproj", "{54FE3EF3-4C4A-4D0C-B49F-AA248555C333}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON", "Part6\01-Serialization\JSON\JSON.csproj", "{9BC21CF6-B812-4EF2-8D8C-02B9ABD7717D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON", "CertificacaoCSharp\Part6\01-Serialization\JSON\JSON.csproj", "{9BC21CF6-B812-4EF2-8D8C-02B9ABD7717D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Part6\02-Collections\Arrays\Arrays.csproj", "{8C13EE26-D44A-4C10-967E-0C8BA6AD7DA0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "CertificacaoCSharp\Part6\02-Collections\Arrays\Arrays.csproj", "{8C13EE26-D44A-4C10-967E-0C8BA6AD7DA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
