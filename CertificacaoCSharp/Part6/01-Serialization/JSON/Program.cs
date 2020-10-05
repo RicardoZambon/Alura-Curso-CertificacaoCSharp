@@ -5,7 +5,7 @@ using System.IO;
 using System.Net.Mime;
 using System.Web.Script.Serialization;
 
-namespace Zambon.Alura.CertificacaoCSharp.Part6.JSON
+namespace Zambon.Alura.CertificacaoCSharp.Serialization..JSON
 {
     class Program
     {

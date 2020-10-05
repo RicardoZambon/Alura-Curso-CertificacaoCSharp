@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{41ED6BA3-8C4F-4AF6-8632-328C4FDCC72D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Zambon.Alura.CertificacaoCSharp.Part6.BinarySerialization</RootNamespace>
-    <AssemblyName>Zambon.Alura.CertificacaoCSharp.Part6.BinarySerialization</AssemblyName>
+    <RootNamespace>Zambon.Alura.CertificacaoCSharp.Serialization.BinarySerialization</RootNamespace>
+    <AssemblyName>Zambon.Alura.CertificacaoCSharp.Serialization.BinarySerialization</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

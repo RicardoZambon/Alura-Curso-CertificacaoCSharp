@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
-namespace Zambon.Alura.CertificacaoCSharp.Part6.BinarySerialization
+namespace Zambon.Alura.CertificacaoCSharp.Serialization.BinarySerialization
 {
     class Program
     {

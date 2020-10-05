@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
 
-namespace Zambon.Alura.CertificacaoCSharp.Part6.DataContract
+namespace Zambon.Alura.CertificacaoCSharp.Serialization..DataContract
 {
     [DataContract]
     public class LojaDeFilmes

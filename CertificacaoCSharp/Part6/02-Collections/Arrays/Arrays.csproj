@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{129F5C4D-7582-45D9-96DC-5335A1B771F3}</ProjectGuid>
+    <ProjectGuid>{8C13EE26-D44A-4C10-967E-0C8BA6AD7DA0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Zambon.Alura.CertificacaoCSharp.Part6.CustomContract</RootNamespace>
-    <AssemblyName>Zambon.Alura.CertificacaoCSharp.Part6.CustomContract</AssemblyName>
+    <RootNamespace>Zambon.Alura.CertificacaoCSharp.Collections.Arrays</RootNamespace>
+    <AssemblyName>Zambon.Alura.CertificacaoCSharp.Collections.Arrays</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,7 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LojaDeFilmes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
