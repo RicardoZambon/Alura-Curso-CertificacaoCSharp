@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Zambon.Alura.CertificacaoCSharp.Collections.Arrays
 {
@@ -56,7 +52,7 @@ namespace Zambon.Alura.CertificacaoCSharp.Collections.Arrays
             Imprimir(empresas);
 
             //Revertendo NOVAMENTE a sequência do array
-             Array.Reverse(empresas);
+            Array.Reverse(empresas);
             Imprimir(empresas);
 
             //Redimensionando um array (truncando a última posição)
@@ -66,16 +62,39 @@ namespace Zambon.Alura.CertificacaoCSharp.Collections.Arrays
             //Redimensionando um array (deixando a última posição vazia)
             Array.Resize(ref empresas, 3);
             Imprimir(empresas);
+            empresas[empresas.Length - 1] = "Casa do Código";
 
+            //Ordenando o Array pela ordem natural dos elementos (alfabética)
+            Array.Sort(empresas);
+            Imprimir(empresas);
+
+            //Copiando um Array em outro
+            string[] copia = new string[2];
+            Array.Copy(empresas, 1, copia, 0, 2);
+            Imprimir(copia);
+
+            //Clonando um Array em um novo Array (note o cast as string[])
+            string[] clone = empresas.Clone() as string[];
+            Imprimir(clone);
+
+            //Limpando alguns índices do Array
+            Array.Clear(clone, 1, clone.Length - 1);
+            Imprimir(clone);
         }
 
         private static void Imprimir(string[] empresas)
         {
-            for (int i = 0; i < empresas.Length; i++)
+            //for (int i = 0; i < empresas.Length; i++)
+            //{
+            //    var empresa = empresas[i];
+            //    Console.WriteLine(empresa);
+            //}
+
+            foreach(var empresa in empresas)
             {
-                var empresa = empresas[i];
                 Console.WriteLine(empresa);
             }
+            Console.WriteLine();
         }
     }
 }
