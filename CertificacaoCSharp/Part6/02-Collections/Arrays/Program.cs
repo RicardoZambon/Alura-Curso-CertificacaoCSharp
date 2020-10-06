@@ -90,7 +90,7 @@ namespace Zambon.Alura.CertificacaoCSharp.Collections.Arrays
             //    Console.WriteLine(empresa);
             //}
 
-            foreach(var empresa in empresas)
+            foreach (var empresa in empresas)
             {
                 Console.WriteLine(empresa);
             }
