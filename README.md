@@ -57,9 +57,9 @@ Curso da Alura sobre a Certificação C# Programming.
 
 **[Parte 7: Eventos e LINQ](https://cursos.alura.com.br/course/certificacao-csharp-eventos-linq)** 
 
-* :black_square_button: Introdução aos Eventos
-* :black_square_button: Manipuladores de Eventos
-* :black_square_button: Delegados e Lambda
+* :white_check_mark: Introdução aos Eventos
+* :white_check_mark: Manipuladores de Eventos
+* :white_check_mark: Delegados e Lambda
 * :black_square_button: Func, Action e Predicate
 * :black_square_button: Consultando e Filtrando Dados com LINQ
 * :black_square_button: Projeção de Dados
