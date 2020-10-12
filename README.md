@@ -60,7 +60,7 @@ Curso da Alura sobre a Certificação C# Programming.
 * :white_check_mark: Introdução aos Eventos
 * :white_check_mark: Manipuladores de Eventos
 * :white_check_mark: Delegados e Lambda
-* :black_square_button: Func, Action e Predicate
+* :white_check_mark: Func, Action e Predicate
 * :black_square_button: Consultando e Filtrando Dados com LINQ
 * :black_square_button: Projeção de Dados
 * :black_square_button: Agrupamento e Agregação
