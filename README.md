@@ -46,7 +46,8 @@ Curso da Alura sobre a Certificação C# Programming.
 * :black_square_button: Pesquisando Strings
 * :black_square_button: Formatação de Strings
 
-**[Parte 6: Coleções, XML e JSON](https://cursos.alura.com.br/course/certificacao-csharp-colecoes-xml-json)** 
+**[<img src="https://img.shields.io/badge/Certificado-blue?logo=aventrix&logoColor=white" alt="Certificado" valign="text-bottom" />](https://cursos.alura.com.br/certificate/467f8dfc-6e3f-47e4-9fc4-7b3c240c7f4b)
+[Parte 6: Coleções, XML e JSON](https://cursos.alura.com.br/course/certificacao-csharp-colecoes-xml-json)** 
 
 * :white_check_mark: Serialização com XML
 * :white_check_mark: Serialização com JSON
@@ -55,7 +56,8 @@ Curso da Alura sobre a Certificação C# Programming.
 * :white_check_mark: Listas
 * :white_check_mark: Conjuntos, Dicionários e Filas
 
-**[Parte 7: Eventos e LINQ](https://cursos.alura.com.br/course/certificacao-csharp-eventos-linq)** 
+**[<img src="https://img.shields.io/badge/Certificado-blue?logo=aventrix&logoColor=white" alt="Certificado" valign="text-bottom" />](https://cursos.alura.com.br/certificate/2c6bd229-517c-47de-b10f-a23d5ed76fb8)
+[Parte 7: Eventos e LINQ](https://cursos.alura.com.br/course/certificacao-csharp-eventos-linq)** 
 
 * :white_check_mark: Introdução aos Eventos
 * :white_check_mark: Manipuladores de Eventos
