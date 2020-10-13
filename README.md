@@ -71,9 +71,9 @@ Curso da Alura sobre a Certificação C# Programming.
 
 **[Parte 8: Entrada e Saída de Dados](https://cursos.alura.com.br/course/certificacao-csharp-entrada-saida-dados)** 
 
-* :black_square_button: Ler e Gravar Bytes em Fluxos de Arquivos
-* :black_square_button: Ler e Gravar Strings em Fluxos de Arquivos
-* :black_square_button: Gerenciando Arquivos
+* :white_check_mark: Ler e Gravar Bytes em Fluxos de Arquivos
+* :white_check_mark: Ler e Gravar Strings em Fluxos de Arquivos
+* :eight_pointed_black_star: Gerenciando Arquivos
 * :black_square_button: Gerenciando Diretórios
 * :black_square_button: Acessando a Web de Forma Assíncrona
 * :black_square_button: Lendo e Atualizando Banco de Dados

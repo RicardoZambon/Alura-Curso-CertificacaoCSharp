@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Zambon.Alura.CertificacaoCSharp.FileSystem</AssemblyName>
+    <RootNamespace>Zambon.Alura.CertificacaoCSharp.FileSystem</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Diretores.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Diretores.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

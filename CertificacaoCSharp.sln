@@ -31,7 +31,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queues", "CertificacaoCShar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCollections", "CertificacaoCSharp\Part6\02-Collections\CustomCollections\CustomCollections.csproj", "{ED0291FD-8459-4730-8C2E-513B3F77676A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part-7", "Part-7", "{C6F94C3B-3EA1-40B8-983D-9D32D11FF59A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part-07", "Part-07", "{C6F94C3B-3EA1-40B8-983D-9D32D11FF59A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Events", "01-Events", "{40C07BEE-85FB-41EE-9D19-996E4D405B77}"
 EndProject
@@ -43,13 +43,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lambda", "CertificacaoCShar
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-LINQ", "02-LINQ", "{AAC58FE6-BDD0-490E-9EA1-308BFA9A0006}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodSintax", "CertificacaoCSharp\Part7\02-LINQ\MethodSintax\MethodSintax.csproj", "{78CA1A53-C865-48FC-AA86-B73FE3A95623}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodSintax", "CertificacaoCSharp\Part7\02-LINQ\MethodSintax\MethodSintax.csproj", "{78CA1A53-C865-48FC-AA86-B73FE3A95623}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuerySintax", "CertificacaoCSharp\Part7\02-LINQ\QuerySintax\QuerySintax.csproj", "{98F8F1E5-FCC7-40B3-9528-57B39F319D82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryExecution", "CertificacaoCSharp\Part7\02-LINQ\QueryExecution\QueryExecution.csproj", "{B68B8465-13E5-49FF-9566-80E7A4D2E603}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueryExecution", "CertificacaoCSharp\Part7\02-LINQ\QueryExecution\QueryExecution.csproj", "{B68B8465-13E5-49FF-9566-80E7A4D2E603}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLQuery", "CertificacaoCSharp\Part7\02-LINQ\XMLQuery\XMLQuery.csproj", "{AA2452BF-13AB-4BCB-AED6-D2DD061006A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XMLQuery", "CertificacaoCSharp\Part7\02-LINQ\XMLQuery\XMLQuery.csproj", "{AA2452BF-13AB-4BCB-AED6-D2DD061006A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part-08", "Part-08", "{107A5B81-419D-4C5A-9545-10FDF169A9DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystem", "CertificacaoCSharp\Part8\FileSystem\FileSystem.csproj", "{520DD8F2-92FA-42CF-A0B2-B2521569CC8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +133,10 @@ Global
 		{AA2452BF-13AB-4BCB-AED6-D2DD061006A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA2452BF-13AB-4BCB-AED6-D2DD061006A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA2452BF-13AB-4BCB-AED6-D2DD061006A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{520DD8F2-92FA-42CF-A0B2-B2521569CC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520DD8F2-92FA-42CF-A0B2-B2521569CC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520DD8F2-92FA-42CF-A0B2-B2521569CC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520DD8F2-92FA-42CF-A0B2-B2521569CC8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -156,6 +164,7 @@ Global
 		{98F8F1E5-FCC7-40B3-9528-57B39F319D82} = {AAC58FE6-BDD0-490E-9EA1-308BFA9A0006}
 		{B68B8465-13E5-49FF-9566-80E7A4D2E603} = {AAC58FE6-BDD0-490E-9EA1-308BFA9A0006}
 		{AA2452BF-13AB-4BCB-AED6-D2DD061006A6} = {AAC58FE6-BDD0-490E-9EA1-308BFA9A0006}
+		{520DD8F2-92FA-42CF-A0B2-B2521569CC8E} = {107A5B81-419D-4C5A-9545-10FDF169A9DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0AAA9658-F25F-489F-A417-6E12F1801619}
