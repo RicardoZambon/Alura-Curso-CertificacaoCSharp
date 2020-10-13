@@ -61,11 +61,11 @@ Curso da Alura sobre a Certificação C# Programming.
 * :white_check_mark: Manipuladores de Eventos
 * :white_check_mark: Delegados e Lambda
 * :white_check_mark: Func, Action e Predicate
-* :black_square_button: Consultando e Filtrando Dados com LINQ
-* :black_square_button: Projeção de Dados
-* :black_square_button: Agrupamento e Agregação
-* :black_square_button: Paginação e Sintaxe de Método
-* :black_square_button: Consulta com XML
+* :white_check_mark: Consultando e Filtrando Dados com LINQ
+* :white_check_mark: Projeção de Dados
+* :white_check_mark: Agrupamento e Agregação
+* :white_check_mark: Paginação e Sintaxe de Método
+* :white_check_mark: Consulta com XML
 
 **[Parte 8: Entrada e Saída de Dados](https://cursos.alura.com.br/course/certificacao-csharp-entrada-saida-dados)** 
 

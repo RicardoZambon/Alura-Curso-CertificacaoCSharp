@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Zambon.Alura.CertificacaoCSharp.LINQ.XMLQuery</RootNamespace>
+    <AssemblyName>Zambon.Alura.CertificacaoCSharp.LINQ.XMLQuery</AssemblyName>
+  </PropertyGroup>
+
+</Project>
