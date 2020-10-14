@@ -6,7 +6,7 @@ namespace Zambon.Alura.CertificacaoCSharp.FileSystem
 {
     class Streams_Zipped
     {
-        static void Main(string[] args)
+        static void _Main(string[] args)
         {
             //TAREFA: USAR ARQUIVO COMPACTADO Texto.zip NO LUGAR
             //DO ArquivoSaida.txt
