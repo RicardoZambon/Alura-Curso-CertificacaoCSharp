@@ -5,7 +5,7 @@ namespace Zambon.Alura.CertificacaoCSharp.FileSystem
 {
     class FileDetails
     {
-        static void Main(string[] args)
+        static void _Main(string[] args)
         {
             //TAREFA:
             //1. Gravar um texto em Arquivo.txt
