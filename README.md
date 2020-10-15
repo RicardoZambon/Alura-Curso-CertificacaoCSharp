@@ -73,8 +73,8 @@ Curso da Alura sobre a Certificação C# Programming.
 
 * :white_check_mark: Ler e Gravar Bytes em Fluxos de Arquivos
 * :white_check_mark: Ler e Gravar Strings em Fluxos de Arquivos
-* :eight_pointed_black_star: Gerenciando Arquivos
-* :black_square_button: Gerenciando Diretórios
+* :white_check_mark: Gerenciando Arquivos
+* :eight_pointed_black_star: Gerenciando Diretórios
 * :black_square_button: Acessando a Web de Forma Assíncrona
 * :black_square_button: Lendo e Atualizando Banco de Dados
 * :black_square_button: Consumindo Serviços e Interpretando Dados

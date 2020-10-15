@@ -5,7 +5,7 @@ namespace Zambon.Alura.CertificacaoCSharp.FileSystem
 {
     public class StreamExceptions
     {
-        static void Main(string[] args)
+        static void _Main(string[] args)
         {
             try
             {
