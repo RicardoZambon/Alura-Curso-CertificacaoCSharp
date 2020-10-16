@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Zambon.Alura.CertificacaoCSharp.FileSystem
@@ -28,7 +26,7 @@ namespace Zambon.Alura.CertificacaoCSharp.FileSystem
         }
 
         static async Task GravarBytesAsync(string nomeArquivo, byte[] items)
-            //Nunca retornar void, e sim Task!
+        //Nunca retornar void, e sim Task!
         {
             using (FileStream fluxoSaida = new FileStream(nomeArquivo, FileMode.OpenOrCreate, FileAccess.Write))
             {
