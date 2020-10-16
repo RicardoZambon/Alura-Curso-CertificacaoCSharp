@@ -5,7 +5,7 @@ namespace Zambon.Alura.CertificacaoCSharp.FileSystem
 {
     class FileSearch
     {
-        static void Main(string[] args)
+        static void _Main(string[] args)
         {
             //TAREFAS:
             //Obter o diretório de início do projeto
