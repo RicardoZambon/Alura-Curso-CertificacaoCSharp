@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 
-namespace Zambon.Alura.CertificacaoCSharp.Serialization..CustomContract
+namespace Zambon.Alura.CertificacaoCSharp.Serialization.CustomContract
 {
     public class LojaDeFilmes
     {

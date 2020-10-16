@@ -59,6 +59,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebHandling", "Certificacao
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsAsync", "CertificacaoCSharp\Part8\WinFormsAsync\WinFormsAsync.csproj", "{D886C993-4FC8-46E3-900F-B586B3876F2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseHandling", "CertificacaoCSharp\Part8\DatabaseHandling\DatabaseHandling.csproj", "{5ECFFEC3-8ADE-4EA1-B0B5-A2C659C40DE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -149,6 +151,10 @@ Global
 		{D886C993-4FC8-46E3-900F-B586B3876F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D886C993-4FC8-46E3-900F-B586B3876F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D886C993-4FC8-46E3-900F-B586B3876F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ECFFEC3-8ADE-4EA1-B0B5-A2C659C40DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ECFFEC3-8ADE-4EA1-B0B5-A2C659C40DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ECFFEC3-8ADE-4EA1-B0B5-A2C659C40DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ECFFEC3-8ADE-4EA1-B0B5-A2C659C40DE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -179,6 +185,7 @@ Global
 		{520DD8F2-92FA-42CF-A0B2-B2521569CC8E} = {107A5B81-419D-4C5A-9545-10FDF169A9DD}
 		{E659743C-164A-44B7-A59B-7DE857686A8B} = {107A5B81-419D-4C5A-9545-10FDF169A9DD}
 		{D886C993-4FC8-46E3-900F-B586B3876F2E} = {107A5B81-419D-4C5A-9545-10FDF169A9DD}
+		{5ECFFEC3-8ADE-4EA1-B0B5-A2C659C40DE9} = {107A5B81-419D-4C5A-9545-10FDF169A9DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0AAA9658-F25F-489F-A417-6E12F1801619}

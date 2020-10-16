@@ -76,8 +76,8 @@ Curso da Alura sobre a Certificação C# Programming.
 * :white_check_mark: Gerenciando Arquivos
 * :white_check_mark: Gerenciando Diretórios
 * :white_check_mark: Acessando a Web de Forma Assíncrona
-* :eight_pointed_black_star: Lendo e Atualizando Banco de Dados
-* :black_square_button: Consumindo Serviços e Interpretando Dados
+* :white_check_mark: Lendo e Atualizando Banco de Dados
+* :eight_pointed_black_star: Consumindo Serviços e Interpretando Dados
 
 **[Parte 9: Depurar Aplicativos](https://cursos.alura.com.br/course/certificacao-csharp-depurar-aplicativos)** 
 

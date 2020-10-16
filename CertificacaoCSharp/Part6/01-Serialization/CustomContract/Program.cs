@@ -2,7 +2,7 @@
 using System.IO;
 using System.Runtime.Serialization;
 
-namespace Zambon.Alura.CertificacaoCSharp.Serialization..CustomContract
+namespace Zambon.Alura.CertificacaoCSharp.Serialization.CustomContract
 {
     class Program
     {

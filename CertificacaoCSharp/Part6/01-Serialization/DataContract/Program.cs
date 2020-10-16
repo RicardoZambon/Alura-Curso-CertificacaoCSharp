@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization;
 
-namespace Zambon.Alura.CertificacaoCSharp.Serialization..DataContract
+namespace Zambon.Alura.CertificacaoCSharp.Serialization.DataContract
 {
     class Program
     {

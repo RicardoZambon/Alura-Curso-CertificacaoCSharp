@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace Zambon.Alura.CertificacaoCSharp.Serialization..JSON
+namespace Zambon.Alura.CertificacaoCSharp.Serialization.JSON
 {
     [JsonObject(nameof(LojaDeFilmes))]
     public class MovieStore

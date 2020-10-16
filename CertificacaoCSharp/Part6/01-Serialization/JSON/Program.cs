@@ -1,11 +1,9 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Net.Mime;
 using System.Web.Script.Serialization;
 
-namespace Zambon.Alura.CertificacaoCSharp.Serialization..JSON
+namespace Zambon.Alura.CertificacaoCSharp.Serialization.JSON
 {
     class Program
     {
@@ -31,7 +29,7 @@ namespace Zambon.Alura.CertificacaoCSharp.Serialization..JSON
 
             //Deserializando o JSON
             var copiaDaLoja = (LojaDeFilmes)javascriptSerializer.Deserialize(json, typeof(LojaDeFilmes));
-            foreach(var filme in copiaDaLoja.Filmes)
+            foreach (var filme in copiaDaLoja.Filmes)
             {
                 Console.WriteLine(filme.Titulo);
             }
@@ -55,14 +53,14 @@ namespace Zambon.Alura.CertificacaoCSharp.Serialization..JSON
             //copiaDaLoja = (LojaDeFilmes)JsonConvert.DeserializeObject(json);
             copiaDaLoja = JsonConvert.DeserializeObject<LojaDeFilmes>(json);
 
-            foreach(var filme in copiaDaLoja.Filmes)
+            foreach (var filme in copiaDaLoja.Filmes)
             {
                 Console.WriteLine(filme.Titulo);
             }
 
             var movieStore = JsonConvert.DeserializeObject<MovieStore>(json);
 
-            foreach(var movie in movieStore.Movies)
+            foreach (var movie in movieStore.Movies)
             {
                 Console.WriteLine(movie.Title);
             }
