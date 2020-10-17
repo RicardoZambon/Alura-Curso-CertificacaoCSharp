@@ -84,8 +84,8 @@ Curso da Alura sobre a Certificação C# Programming.
 
 * :white_check_mark: Gerenciando Assemblies
 * :white_check_mark: Assinando Assemblies com Nome Forte
-* :eight_pointed_black_star: Depurando Aplicações
-* :black_square_button: Compilação Condicional
+* :white_check_mark: Depurando Aplicações
+* :eight_pointed_black_star: Compilação Condicional
 * :black_square_button: Compilação em Modo Debug e Release
 * :black_square_button: Rastreamento de Aplicações
 * :black_square_button: Gravando Mensagens no Event Log

@@ -114,26 +114,30 @@ namespace Zambon.Alura.CertificacaoCSharp.AppDebug.Data
 
         public async Task<IList<Filme>> GetFilmes()
         {
-            IList<Filme> filmes = new List<Filme>();
+            var filmes = new List<Filme>();
             string connectionString = $"Server={databaseServer};Integrated security=SSPI;database={databaseName}";
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (var connection = new SqlConnection(connectionString))
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand(
+                using (var command = new SqlCommand(
                     " SELECT d.Nome AS Diretor, f.Titulo AS Titulo" +
                     " FROM Filmes AS f" +
                     " INNER JOIN Diretores AS d" +
                     "   ON d.Id = f.DiretorId"
-                    , connection);
-                SqlDataReader reader = await command.ExecuteReaderAsync();
-
-                while (reader.Read())
+                    , connection))
+                using (var reader = await command.ExecuteReaderAsync())
                 {
-                    string diretor = reader["Diretor"].ToString();
-                    string titulo = reader["Titulo"].ToString();
-                    filmes.Add(new Filme(diretor, titulo));
+                    while (reader.Read())
+                    {
+                        string diretor = reader.GetString("Diretor");
+                        string titulo = reader.GetString("Titulo");
+                        filmes.Add(new Filme(diretor, titulo));
+                    }
                 }
             }
+#if DEBUG
+            Console.WriteLine("O método GetFilmes() foi executado com sucesso.");
+#endif
 
             return filmes;
         }
