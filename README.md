@@ -69,7 +69,8 @@ Curso da Alura sobre a Certificação C# Programming.
 * :white_check_mark: Paginação e Sintaxe de Método
 * :white_check_mark: Consulta com XML
 
-**[Parte 8: Entrada e Saída de Dados](https://cursos.alura.com.br/course/certificacao-csharp-entrada-saida-dados)** 
+**[<img src="https://img.shields.io/badge/Certificado-blue?logo=aventrix&logoColor=white" alt="Certificado" valign="text-bottom" />](https://cursos.alura.com.br/certificate/c93d4d5f-fd83-42c4-8bcb-7f7383aea460)
+[Parte 8: Entrada e Saída de Dados](https://cursos.alura.com.br/course/certificacao-csharp-entrada-saida-dados)** 
 
 * :white_check_mark: Ler e Gravar Bytes em Fluxos de Arquivos
 * :white_check_mark: Ler e Gravar Strings em Fluxos de Arquivos
@@ -77,11 +78,11 @@ Curso da Alura sobre a Certificação C# Programming.
 * :white_check_mark: Gerenciando Diretórios
 * :white_check_mark: Acessando a Web de Forma Assíncrona
 * :white_check_mark: Lendo e Atualizando Banco de Dados
-* :eight_pointed_black_star: Consumindo Serviços e Interpretando Dados
+* :white_check_mark: Consumindo Serviços e Interpretando Dados
 
 **[Parte 9: Depurar Aplicativos](https://cursos.alura.com.br/course/certificacao-csharp-depurar-aplicativos)** 
 
-* :black_square_button: Gerenciando Assemblies
+* :eight_pointed_black_star: Gerenciando Assemblies
 * :black_square_button: Assinando Assemblies com Nome Forte
 * :black_square_button: Depurando Aplicações
 * :black_square_button: Compilação Condicional
