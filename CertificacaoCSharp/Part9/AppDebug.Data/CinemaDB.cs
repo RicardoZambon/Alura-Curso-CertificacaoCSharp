@@ -26,9 +26,13 @@ namespace Zambon.Alura.CertificacaoCSharp.AppDebug.Data
 
         public async Task CriarBancoDeDadosAsync()
         {
+            Trace.WriteLine("Entrando no método CriarBancoDeDadosAsync()", "MÉTODO");
+            Trace.Indent();
             await CriarBancoAsync();
             await CriarTabelasAsync();
             await InserirRegistrosAsync();
+            Trace.Unindent();
+            Trace.WriteLine("Saindo do método CriarBancoDeDadosAsync()", "MÉTODO");
         }
 
         private async Task CriarBancoAsync()
@@ -93,40 +97,40 @@ namespace Zambon.Alura.CertificacaoCSharp.AppDebug.Data
 
         private async Task ExecutarComandoAsync(string sql, string banco)
         {
-            SqlConnection conexao = new SqlConnection($"Server={databaseServer};Integrated security=SSPI;database={banco}");
-            SqlCommand comando = new SqlCommand(sql, conexao);
-            try
+            using (var conexao = new SqlConnection($"Server={databaseServer};Integrated security=SSPI;database={banco}"))
+            using (var comando = new SqlCommand(sql, conexao))
             {
-                conexao.Open();
-                await comando.ExecuteNonQueryAsync();
-                Console.WriteLine("Script executado com sucesso.");
-            }
-            catch (System.Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-            }
-            finally
-            {
-                if (conexao.State == ConnectionState.Open)
+                try
                 {
-                    conexao.Close();
+                    conexao.Open();
+                    await comando.ExecuteNonQueryAsync();
+                    Trace.WriteLine($"Script executado com sucesso: {sql}", "SCRIPT");
+                }
+                catch (System.Exception ex)
+                {
+                    Trace.TraceError(ex.ToString());
+                    throw;
                 }
             }
         }
 
         public async Task<IList<Filme>> GetFilmes()
         {
+            Trace.WriteLine("Entrando no método GetFilmes()", "MÉTODO");
+            Trace.Indent();
+
             var filmes = new List<Filme>();
             string connectionString = $"Server={databaseServer};Integrated security=SSPI;database={databaseName}";
             using (var connection = new SqlConnection(connectionString))
+
+            using (var command = new SqlCommand(
+                " SELECT d.Nome AS Diretor, f.Titulo AS Titulo" +
+                " FROM Filmes AS f" +
+                " INNER JOIN Diretores AS d" +
+                "   ON d.Id = f.DiretorId"
+                , connection))
             {
                 connection.Open();
-                using (var command = new SqlCommand(
-                    " SELECT d.Nome AS Diretor, f.Titulo AS Titulo" +
-                    " FROM Filmes AS f" +
-                    " INNER JOIN Diretores AS d" +
-                    "   ON d.Id = f.DiretorId"
-                    , connection))
                 using (var reader = await command.ExecuteReaderAsync())
                 {
 #line hidden
@@ -145,9 +149,9 @@ namespace Zambon.Alura.CertificacaoCSharp.AppDebug.Data
 #endif
 
 #if MODO_DEBUG
-            Console.WriteLine("O método GetFilmes() foi executado com sucesso.");
+            Debug.WriteLine("O método GetFilmes() foi executado com sucesso.");
 #elif MODO_DEBUG_QUANTIDADE
-            Console.WriteLine($"O método GetFilmes() foi executado com sucesso. {filmes.Count}");
+            Debug.WriteLine($"O método GetFilmes() foi executado com sucesso. {filmes.Count}");
 //#elif MODO_DEBUG_DETALHADO
 //            ExibirFilmesJson(filmes);
 #endif
@@ -156,6 +160,9 @@ namespace Zambon.Alura.CertificacaoCSharp.AppDebug.Data
             ExibirFilmesJson(filmes);
 #pragma warning restore CS0618 // Type or member is obsolete
 
+            Trace.Unindent();
+            Trace.WriteLine("Saindo do método GetFilmes()", "MÉTODO");
+
             return filmes;
         }
 
@@ -163,13 +170,13 @@ namespace Zambon.Alura.CertificacaoCSharp.AppDebug.Data
         [Obsolete("Este método está obsoleto. Utilize o novo método ExibirFilmesJsonFormatado")]
         void ExibirFilmesJson(IList<Filme> filmes)
         {
-            Console.WriteLine($"O método GetFilmes() foi executado com sucesso. {JsonConvert.SerializeObject(filmes)}");
+            Debug.WriteLine($"O método GetFilmes() foi executado com sucesso. {JsonConvert.SerializeObject(filmes)}");
         }
 
         [Conditional("MODO_DEBUG_DETALHADO")]
         void ExibirFilmesJsonFormatado(IList<Filme> filmes)
         {
-            Console.WriteLine($"O método GetFilmes() foi executado com sucesso. {JsonConvert.SerializeObject(filmes, Formatting.Indented)}");
+            Debug.WriteLine($"O método GetFilmes() foi executado com sucesso. {JsonConvert.SerializeObject(filmes, Formatting.Indented)}");
         }
     }
 }
