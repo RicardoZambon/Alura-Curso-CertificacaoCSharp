@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using System.Text;
@@ -127,19 +129,47 @@ namespace Zambon.Alura.CertificacaoCSharp.AppDebug.Data
                     , connection))
                 using (var reader = await command.ExecuteReaderAsync())
                 {
+#line hidden
                     while (reader.Read())
                     {
                         string diretor = reader.GetString("Diretor");
                         string titulo = reader.GetString("Titulo");
                         filmes.Add(new Filme(diretor, titulo));
                     }
+#line default
                 }
             }
-#if DEBUG
-            Console.WriteLine("O método GetFilmes() foi executado com sucesso.");
+
+#if MODO_DEBUG && MODO_DEBUG_DETALHADO
+#error Você está usando mais de um modo de debug!
 #endif
 
+#if MODO_DEBUG
+            Console.WriteLine("O método GetFilmes() foi executado com sucesso.");
+#elif MODO_DEBUG_QUANTIDADE
+            Console.WriteLine($"O método GetFilmes() foi executado com sucesso. {filmes.Count}");
+//#elif MODO_DEBUG_DETALHADO
+//            ExibirFilmesJson(filmes);
+#endif
+
+#pragma warning disable CS0618 // Type or member is obsolete
+            ExibirFilmesJson(filmes);
+#pragma warning restore CS0618 // Type or member is obsolete
+
             return filmes;
+        }
+
+        [Conditional("MODO_DEBUG_DETALHADO"), DebuggerStepThrough]
+        [Obsolete("Este método está obsoleto. Utilize o novo método ExibirFilmesJsonFormatado")]
+        void ExibirFilmesJson(IList<Filme> filmes)
+        {
+            Console.WriteLine($"O método GetFilmes() foi executado com sucesso. {JsonConvert.SerializeObject(filmes)}");
+        }
+
+        [Conditional("MODO_DEBUG_DETALHADO")]
+        void ExibirFilmesJsonFormatado(IList<Filme> filmes)
+        {
+            Console.WriteLine($"O método GetFilmes() foi executado com sucesso. {JsonConvert.SerializeObject(filmes, Formatting.Indented)}");
         }
     }
 }
