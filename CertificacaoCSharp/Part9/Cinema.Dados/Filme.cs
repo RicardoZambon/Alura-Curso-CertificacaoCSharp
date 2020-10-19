@@ -1,5 +1,4 @@
-﻿
-namespace Zambon.Alura.CertificacaoCSharp.AppDebug.Data
+﻿namespace Zambon.Alura.CertificacaoCSharp.Cinema.Dados
 {
     public class Filme
     {

@@ -80,7 +80,8 @@ Curso da Alura sobre a Certificação C# Programming.
 * :white_check_mark: Lendo e Atualizando Banco de Dados
 * :white_check_mark: Consumindo Serviços e Interpretando Dados
 
-**[Parte 9: Depurar Aplicativos](https://cursos.alura.com.br/course/certificacao-csharp-depurar-aplicativos)** 
+**[<img src="https://img.shields.io/badge/Certificado-blue?logo=aventrix&logoColor=white" alt="Certificado" valign="text-bottom" />](https://cursos.alura.com.br/certificate/65d8cd26-0b2a-4e65-93b1-dff3980894f1)
+[Parte 9: Depurar Aplicativos](https://cursos.alura.com.br/course/certificacao-csharp-depurar-aplicativos)** 
 
 * :white_check_mark: Gerenciando Assemblies
 * :white_check_mark: Assinando Assemblies com Nome Forte
@@ -89,11 +90,11 @@ Curso da Alura sobre a Certificação C# Programming.
 * :white_check_mark: Compilação em Modo Debug e Release
 * :white_check_mark: Rastreamento de Aplicações
 * :white_check_mark: Gravando Mensagens no Event Log
-* :eight_pointed_black_star: Contadores de Desempenho
+* :white_check_mark: Contadores de Desempenho
 
 **[Parte 10: Reflection](https://cursos.alura.com.br/course/certificacao-csharp-reflection)** 
 
-* :black_square_button: Criar e aplicar atributos
+* :eight_pointed_black_star: Criar e aplicar atributos
 * :black_square_button: Ler os atributos
 * :black_square_button: Usar reflection
 * :black_square_button: Geração de código
