@@ -36,15 +36,16 @@ Curso da Alura sobre a Certificação C# Programming.
 * :black_square_button: Manipulação de Exceções
 * :black_square_button: Exceções com SQL Server e Rede
 
-**[Parte 5: Strings e Ciclo de Vida de Objetos](https://cursos.alura.com.br/course/certificacao-csharp-strings-ciclo-de-vida-objetos)** 
+**[<img src="https://img.shields.io/badge/Certificado-blue?logo=aventrix&logoColor=white" alt="Certificado" valign="text-bottom" />](https://cursos.alura.com.br/certificate/434eedad-d33b-4304-a4e2-e17c8599ab12)
+[Parte 5: Strings e Ciclo de Vida de Objetos](https://cursos.alura.com.br/course/certificacao-csharp-strings-ciclo-de-vida-objetos)** 
 
-* :black_square_button: Serialização com XML
-* :black_square_button: Gerenciamento de Memória
-* :black_square_button: Coletando Lixo
-* :black_square_button: O Padrão Disposable
-* :black_square_button: Concatenação, Escrita e Leitura de Strings
-* :black_square_button: Pesquisando Strings
-* :black_square_button: Formatação de Strings
+* :white_check_mark: Serialização com XML
+* :white_check_mark: Gerenciamento de Memória
+* :white_check_mark: Coletando Lixo
+* :white_check_mark: O Padrão Disposable
+* :white_check_mark: Concatenação, Escrita e Leitura de Strings
+* :white_check_mark: Pesquisando Strings
+* :white_check_mark: Formatação de Strings
 
 **[<img src="https://img.shields.io/badge/Certificado-blue?logo=aventrix&logoColor=white" alt="Certificado" valign="text-bottom" />](https://cursos.alura.com.br/certificate/467f8dfc-6e3f-47e4-9fc4-7b3c240c7f4b)
 [Parte 6: Coleções, XML e JSON](https://cursos.alura.com.br/course/certificacao-csharp-colecoes-xml-json)** 
