@@ -28,9 +28,20 @@ namespace Zambon.Alura.CertificacaoCSharp.AppDebug.Data
         {
             Trace.WriteLine("Entrando no método CriarBancoDeDadosAsync()", "MÉTODO");
             Trace.Indent();
+
+            var stopWatch = new Stopwatch();
+            
+            stopWatch.Start();
             await CriarBancoAsync();
             await CriarTabelasAsync();
+            stopWatch.Stop();
+            Console.WriteLine($"Criação do banco e tabelas: {stopWatch.ElapsedMilliseconds} milissegundos.");
+
+            stopWatch.Restart();
             await InserirRegistrosAsync();
+            stopWatch.Stop();
+            Console.WriteLine($"Inserção no banco de dados: {stopWatch.ElapsedMilliseconds} milissegundos.");
+
             Trace.Unindent();
             Trace.WriteLine("Saindo do método CriarBancoDeDadosAsync()", "MÉTODO");
         }
