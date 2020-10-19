@@ -88,8 +88,8 @@ Curso da Alura sobre a Certificação C# Programming.
 * :white_check_mark: Compilação Condicional
 * :white_check_mark: Compilação em Modo Debug e Release
 * :white_check_mark: Rastreamento de Aplicações
-* :eight_pointed_black_star: Gravando Mensagens no Event Log
-* :black_square_button: Contadores de Desempenho
+* :white_check_mark: Gravando Mensagens no Event Log
+* :eight_pointed_black_star: Contadores de Desempenho
 
 **[Parte 10: Reflection](https://cursos.alura.com.br/course/certificacao-csharp-reflection)** 
 
