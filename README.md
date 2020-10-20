@@ -1,4 +1,4 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/ricardozambon/Alura-Curso-CertificacaoCSharp?logo=github&logoColor=white)
+![GitHub last commit](https://img.shields.io/github/last-commit/ricardozambon/Alura-Curso-CertificacaoCSharp?logo=github&logoColor=white) ![Progress](https://progress-bar.dev/75/?title=progress)
 
 # Alura Certificação C# Programming
 Curso da Alura sobre a Certificação C# Programming.
