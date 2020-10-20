@@ -27,14 +27,15 @@ Curso da Alura sobre a Certificação C# Programming.
 * :black_square_button: Classe Base
 * :black_square_button: Comparações Entre Objetos
 
-**[Parte 4: Fluxo de programa e exceções](https://cursos.alura.com.br/course/certificacao-csharp-fluxo-de-programa-excecoes)** 
+**[<img src="https://img.shields.io/badge/Certificado-blue?logo=aventrix&logoColor=white" alt="Certificado" valign="text-bottom" />](https://cursos.alura.com.br/certificate/7450fb3b-db69-49ac-9e71-ae6cb81c99e6)
+[Parte 4: Fluxo de programa e exceções](https://cursos.alura.com.br/course/certificacao-csharp-fluxo-de-programa-excecoes)** 
 
-* :black_square_button: Fluxo de Programa If, Else, Switch
-* :black_square_button: Compilação Condicional
-* :black_square_button: Fluxo de Programa While e Do
-* :black_square_button: Iteração com For e Foreach
-* :black_square_button: Manipulação de Exceções
-* :black_square_button: Exceções com SQL Server e Rede
+* :white_check_mark: Fluxo de Programa If, Else, Switch
+* :white_check_mark: Compilação Condicional
+* :white_check_mark: Fluxo de Programa While e Do
+* :white_check_mark: Iteração com For e Foreach
+* :white_check_mark: Manipulação de Exceções
+* :white_check_mark: Exceções com SQL Server e Rede
 
 **[<img src="https://img.shields.io/badge/Certificado-blue?logo=aventrix&logoColor=white" alt="Certificado" valign="text-bottom" />](https://cursos.alura.com.br/certificate/434eedad-d33b-4304-a4e2-e17c8599ab12)
 [Parte 5: Strings e Ciclo de Vida de Objetos](https://cursos.alura.com.br/course/certificacao-csharp-strings-ciclo-de-vida-objetos)** 
