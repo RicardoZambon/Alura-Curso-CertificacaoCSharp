@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Zambon.Alura.CertificacaoCSharp.CreateReferenceTypes.Delegates</AssemblyName>
+    <RootNamespace>Zambon.Alura.CertificacaoCSharp.CreateReferenceTypes.Delegates</RootNamespace>
+  </PropertyGroup>
+
+</Project>

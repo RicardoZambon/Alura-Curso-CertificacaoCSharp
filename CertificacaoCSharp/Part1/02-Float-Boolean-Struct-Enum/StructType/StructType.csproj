@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Zambon.Alura.CertificacaoCSharp.FloatBooleanStructEnum.StructType</AssemblyName>
+    <RootNamespace>Zambon.Alura.CertificacaoCSharp.FloatBooleanStructEnum.StructType</RootNamespace>
+  </PropertyGroup>
+
+</Project>

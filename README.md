@@ -3,13 +3,14 @@
 # Alura Certificação C# Programming
 Curso da Alura sobre a Certificação C# Programming.
 
-**[Parte 1: Criar tipos](https://cursos.alura.com.br/course/certificacao-csharp-criar-tipos)** 
+**[<img src="https://img.shields.io/badge/Certificado-blue?logo=aventrix&logoColor=white" alt="Certificado" valign="text-bottom" />](https://cursos.alura.com.br/certificate/5f5411bb-566e-4cf8-96f4-1ffe9345c032)
+[Parte 1: Criar tipos](https://cursos.alura.com.br/course/certificacao-csharp-criar-tipos)** 
 
-* :black_square_button: Tipos integrais
-* :black_square_button: Ponto flutuante, booleanos, structs e enums
-* :black_square_button: Criar tipos de referência
-* :black_square_button: Classes, métodos, métodos de extensão
-* :black_square_button: Criar métodos sobrecarregados e substituídos
+* :white_check_mark: Tipos integrais
+* :white_check_mark: Ponto flutuante, booleanos, structs e enums
+* :white_check_mark: Criar tipos de referência
+* :white_check_mark: Classes, métodos, métodos de extensão
+* :white_check_mark: Criar métodos sobrecarregados e substituídos
 
 **[Parte 2: Consumir tipos](https://cursos.alura.com.br/course/certificacao-csharp-consumir-tipos)** 
 
