@@ -41,11 +41,11 @@
 
 <img src="Image07.png" border="1" />
 
-<div>
-  <img src="Image08.png" align="right" width="300px" />
+<img src="Image08.png" align="right" width="300px" />
 
-  <p align="justify">E, continuando, nós fomos lá para o Item04, que é gerar o código em tempo de execução. Então, nós aprendemos a fazer um programinha aqui no Item04 geração de código. E esse programa cria aqui um namespace chamado recursos humanos e lá dentro ele declara uma classe funcionário com alguns campos, nome e salário, e também o construtor. Então nós utilizamos aqui através da geração de código, chamado CodeDOM, ou objetos do modelo de código do dot net, para a gente poder declarar vários tipos de objetos, para poder montar cada parte desse código aqui, o código do namespace recursos humanos.</p>
-</div>
+<p align="justify">E, continuando, nós fomos lá para o Item04, que é gerar o código em tempo de execução. Então, nós aprendemos a fazer um programinha aqui no Item04 geração de código. E esse programa cria aqui um namespace chamado recursos humanos e lá dentro ele declara uma classe funcionário com alguns campos, nome e salário, e também o construtor. Então nós utilizamos aqui através da geração de código, chamado CodeDOM, ou objetos do modelo de código do dot net, para a gente poder declarar vários tipos de objetos, para poder montar cada parte desse código aqui, o código do namespace recursos humanos.</p>
+
+<br />
 
 ## Usar tipos do namespace System.Reflection
 
