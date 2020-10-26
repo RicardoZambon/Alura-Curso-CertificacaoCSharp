@@ -1,6 +1,6 @@
 # Alura: Curso de Certificação C# Programming 70-483 - Parte 1
 
-<p align="justify">Chegamos ao final de mais um curso da Alura, o curso de Certificação do exame 70-483 Programming in C#" Parte 1.</p>
+<p align="justify">Chegamos ao final de mais um curso da Alura, o curso de <b>Certificação do exame 70-483 Programming in C# <i>Parte 1</i></b>.</p>
 
 <img src="Image01.png" border="1" />
 
