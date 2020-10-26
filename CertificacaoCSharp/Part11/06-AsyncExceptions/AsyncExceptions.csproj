@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>Zambon.Alura.CertificacaoCSharp.AsyncExceptions</AssemblyName>
+    <RootNamespace>Zambon.Alura.CertificacaoCSharp.AsyncExceptions</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Dados\filmes.json" Link="filmes.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+</Project>

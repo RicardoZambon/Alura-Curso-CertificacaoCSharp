@@ -105,9 +105,9 @@ Curso da Alura sobre a Certificação C# Programming.
 
 **[Parte 11: Multithreading](https://cursos.alura.com.br/course/certificacao-csharp-multithreading)** 
 
-* :eight_pointed_black_star: Introdução ao Task Parallel Library
-* :black_square_button: Consultas LINQ com Paralelismo
-* :black_square_button: Espera, Continuação e Hierarquia de Tarefas
+* :white_check_mark: Introdução ao Task Parallel Library
+* :white_check_mark: Consultas LINQ com Paralelismo
+* :eight_pointed_black_star: Espera, Continuação e Hierarquia de Tarefas
 * :black_square_button: Threads
 * :black_square_button: Desbloqueando a Interface do Usuário
 * :black_square_button: Async, Await, Coleções Simultâneas e Bloqueios
