@@ -94,17 +94,18 @@ Curso da Alura sobre a Certificação C# Programming.
 * :white_check_mark: Gravando Mensagens no Event Log
 * :white_check_mark: Contadores de Desempenho
 
-**[Parte 10: Reflection](https://cursos.alura.com.br/course/certificacao-csharp-reflection)** 
+**[<img src="https://img.shields.io/badge/Certificado-blue?logo=aventrix&logoColor=white" alt="Certificado" valign="text-bottom" />](https://cursos.alura.com.br/certificate/0179da7b-5d8d-439e-bcff-7f6bc3914311)
+[Parte 10: Reflection](https://cursos.alura.com.br/course/certificacao-csharp-reflection)** 
 
-* :eight_pointed_black_star: Criar e aplicar atributos
-* :black_square_button: Ler os atributos
-* :black_square_button: Usar reflection
-* :black_square_button: Geração de código
-* :black_square_button: Tipos do System Reflection
+* :white_check_mark: Criar e aplicar atributos
+* :white_check_mark: Ler os atributos
+* :white_check_mark: Usar reflection
+* :white_check_mark: Geração de código
+* :white_check_mark: Tipos do System Reflection
 
 **[Parte 11: Multithreading](https://cursos.alura.com.br/course/certificacao-csharp-multithreading)** 
 
-* :black_square_button: Introdução ao Task Parallel Library
+* :eight_pointed_black_star: Introdução ao Task Parallel Library
 * :black_square_button: Consultas LINQ com Paralelismo
 * :black_square_button: Espera, Continuação e Hierarquia de Tarefas
 * :black_square_button: Threads
