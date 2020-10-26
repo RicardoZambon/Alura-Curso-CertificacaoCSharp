@@ -1,6 +1,6 @@
 # Alura: Curso de Certificação C# Programming 70-483 - Parte 10
 
-<p align="justify">Chegamos ao final da parte 10 do nosso curso de **certificação 70-483 Programação em C-Sharp**. Vamos, então, fazer uma revisão bem rápida das coisas que a gente aprendeu aqui.</p>
+<p align="justify">Chegamos ao final da parte 10 do nosso curso de <b>certificação 70-483 Programação em C-Sharp</b>. Vamos, então, fazer uma revisão bem rápida das coisas que a gente aprendeu aqui.</p>
 
 <img src="Image01.png" border="1" />
 
