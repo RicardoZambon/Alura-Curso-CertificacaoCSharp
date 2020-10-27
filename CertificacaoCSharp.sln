@@ -117,49 +117,49 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection-DiscoveringClass
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part11", "Part11", "{450A5E30-CC1D-4D9B-844F-48BF0439D2CB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TasksInSeriesAndParallel", "CertificacaoCSharp\Part11\01-Tasks-SeriesAndParallel\TasksInSeriesAndParallel.csproj", "{55E9FE7B-4133-49B7-88FB-96CBF1FA0688}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TasksInSeriesAndParallel", "CertificacaoCSharp\Part11\01-Parallelism\Tasks-SeriesAndParallel\TasksInSeriesAndParallel.csproj", "{55E9FE7B-4133-49B7-88FB-96CBF1FA0688}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManyTasksInParallel", "CertificacaoCSharp\Part11\01-ManyTasksInParallel\ManyTasksInParallel.csproj", "{B9016182-CD94-497F-9AE7-DB30B2FAB441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManyTasksInParallel", "CertificacaoCSharp\Part11\01-Parallelism\ManyTasksInParallel\ManyTasksInParallel.csproj", "{B9016182-CD94-497F-9AE7-DB30B2FAB441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopingParallelLoop", "CertificacaoCSharp\Part11\01-StopingParallelLoop\StopingParallelLoop.csproj", "{60E847A3-F654-45D7-A94E-E32493DCD08D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopingParallelLoop", "CertificacaoCSharp\Part11\01-Parallelism\StopingParallelLoop\StopingParallelLoop.csproj", "{60E847A3-F654-45D7-A94E-E32493DCD08D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Parallelism", "01-Parallelism", "{9F1AD3FD-A675-4C1D-AEA6-118AFDA42FEE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-PLINQ", "02-PLINQ", "{7D73C24B-D9DB-4983-BC7E-F44A98604372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLINQ", "CertificacaoCSharp\Part11\02-PLINQ\PLINQ.csproj", "{10C7A355-3F96-4CD2-8085-A769F228E2E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLINQ", "CertificacaoCSharp\Part11\02-PLINQ\PLINQ\PLINQ.csproj", "{10C7A355-3F96-4CD2-8085-A769F228E2E3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Tasks", "03-Tasks", "{D43F2F74-394D-4FE0-A89D-9A156607492D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Threads", "04-Threads", "{C7946E05-FDB6-44ED-A7F6-CA2BBC703707}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContinueTask", "CertificacaoCSharp\Part11\03-ContinueTask\ContinueTask.csproj", "{E9C28C7A-A788-4A73-B5F4-09CE8FED211B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContinueTask", "CertificacaoCSharp\Part11\03-Tasks\ContinueTask\ContinueTask.csproj", "{E9C28C7A-A788-4A73-B5F4-09CE8FED211B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitingTaskEnd", "CertificacaoCSharp\Part11\03-WaitingTaskEnd\WaitingTaskEnd.csproj", "{CED1482A-EED1-4AB9-992A-8388C4086839}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitingTaskEnd", "CertificacaoCSharp\Part11\03-Tasks\WaitingTaskEnd\WaitingTaskEnd.csproj", "{CED1482A-EED1-4AB9-992A-8388C4086839}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManaging", "CertificacaoCSharp\Part11\03-TaskManaging\TaskManaging.csproj", "{7923F298-9319-4E04-8BC5-FEEDCC6F77C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManaging", "CertificacaoCSharp\Part11\03-Tasks\TaskManaging\TaskManaging.csproj", "{7923F298-9319-4E04-8BC5-FEEDCC6F77C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskParentTaskChild", "CertificacaoCSharp\Part11\03-TaskParentTaskChild\TaskParentTaskChild.csproj", "{213597E7-1EAA-4785-8EA9-2FA556FCBE2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskParentTaskChild", "CertificacaoCSharp\Part11\03-Tasks\TaskParentTaskChild\TaskParentTaskChild.csproj", "{213597E7-1EAA-4785-8EA9-2FA556FCBE2B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threads", "CertificacaoCSharp\Part11\04-Threads\Threads.csproj", "{33877F14-7817-4737-B180-AA0B5F203A59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threads", "CertificacaoCSharp\Part11\04-Threads\Threads\Threads.csproj", "{33877F14-7817-4737-B180-AA0B5F203A59}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-UserInterface", "05-UserInterface", "{08534C99-2707-49D3-8B42-8BFA297CA94B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInterface", "CertificacaoCSharp\Part11\05-UserInterface\UserInterface.csproj", "{486805CC-F44E-4AF2-8CB9-A00A79223DC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInterface", "CertificacaoCSharp\Part11\05-UserInterface\UserInterface\UserInterface.csproj", "{486805CC-F44E-4AF2-8CB9-A00A79223DC0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-Async-Await-SimultaneousCollection-Blockings", "06-Async-Await-SimultaneousCollection-Blockings", "{63B2C562-086B-4C62-A856-9FF14A54740F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncExceptions", "CertificacaoCSharp\Part11\06-AsyncExceptions\AsyncExceptions.csproj", "{0B615556-7F07-46EA-BAE1-74845780C98A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncExceptions", "CertificacaoCSharp\Part11\06-Async-Await-SimultaneousCollection-Blockings\AsyncExceptions\AsyncExceptions.csproj", "{0B615556-7F07-46EA-BAE1-74845780C98A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcurrentDictionary", "CertificacaoCSharp\Part11\06-ConcurrentDictionary\ConcurrentDictionary.csproj", "{7E611593-6C15-417F-9172-2F64E8A21C17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcurrentDictionary", "CertificacaoCSharp\Part11\06-Async-Await-SimultaneousCollection-Blockings\ConcurrentDictionary\ConcurrentDictionary.csproj", "{7E611593-6C15-417F-9172-2F64E8A21C17}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blocking", "CertificacaoCSharp\Part11\06-Blocking\Blocking.csproj", "{A20F9048-6CB9-4A7F-8C58-CA4205A85F3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blocking", "CertificacaoCSharp\Part11\06-Async-Await-SimultaneousCollection-Blockings\Blocking\Blocking.csproj", "{A20F9048-6CB9-4A7F-8C58-CA4205A85F3D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-TaskCancelling-ThreadSafe", "07-TaskCancelling-ThreadSafe", "{358A2BEA-2C02-4021-AEE0-B924B35782B4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskCancelling", "CertificacaoCSharp\Part11\07-TaskCancelling\TaskCancelling.csproj", "{7035D96F-47ED-4F73-990E-A7ADB6E58248}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskCancelling", "CertificacaoCSharp\Part11\07-TaskCancelling-ThreadSafe\TaskCancelling\TaskCancelling.csproj", "{7035D96F-47ED-4F73-990E-A7ADB6E58248}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotifyingTaskCancelling", "CertificacaoCSharp\Part11\07-NotifyingTaskCancelling\NotifyingTaskCancelling.csproj", "{9679351E-5F33-438F-BD53-99801E09C117}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotifyingTaskCancelling", "CertificacaoCSharp\Part11\07-TaskCancelling-ThreadSafe\NotifyingTaskCancelling\NotifyingTaskCancelling.csproj", "{9679351E-5F33-438F-BD53-99801E09C117}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part-01", "Part-01", "{627A7FBD-214C-474F-95FE-600E9F42CA61}"
 EndProject
