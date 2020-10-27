@@ -12,13 +12,14 @@ Curso da Alura sobre a Certificação C# Programming.
 * :white_check_mark: Classes, métodos, métodos de extensão
 * :white_check_mark: Criar métodos sobrecarregados e substituídos
 
-**[Parte 2: Consumir tipos](https://cursos.alura.com.br/course/certificacao-csharp-consumir-tipos)** 
+**[<img src="https://img.shields.io/badge/Certificado-blue?logo=aventrix&logoColor=white" alt="Certificado" valign="text-bottom" />](https://cursos.alura.com.br/certificate/36ecc752-3146-462e-bf5e-9d66f0050844)
+[Parte 2: Consumir tipos](https://cursos.alura.com.br/course/certificacao-csharp-consumir-tipos)** 
 
-* :black_square_button: Box ou unbox para converter entre tipos de valor
-* :black_square_button: Cast de tipos
-* :black_square_button: Implementando conversões
-* :black_square_button: Lidar com tipos dinâmicos
-* :black_square_button: Adicionando membros dinamicamente
+* :white_check_mark: Box ou unbox para converter entre tipos de valor
+* :white_check_mark: Cast de tipos
+* :white_check_mark: Implementando conversões
+* :white_check_mark: Lidar com tipos dinâmicos
+* :white_check_mark: Adicionando membros dinamicamente
 
 **[Parte 3: Encapsulamento e Hierarquia de Classes](https://cursos.alura.com.br/course/certificacao-csharp-encapsulamento-hierarquia-de-classes)** 
 
