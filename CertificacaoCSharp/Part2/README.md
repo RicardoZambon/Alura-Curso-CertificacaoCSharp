@@ -6,17 +6,17 @@
 
 ## Aula 1: Boxing e unboxing
 
-<img align="right" width="100px" src="Image02.png" />
+<img align="right" width="180px" src="Image02.png" />
 
-<img align="right" width="100px" src="Image03.png" />
+<img align="right" width="180px" src="Image03.png" />
 
 <p align="justify">Vimos, por exemplo, o Boxing e o Unboxing, que se tratam da conversão entre objetos e valores primitivos, como pegar um número inteiro e convertê-lo num tipo object, ou o caminho oposto, pegar um objeto e extrair dele um valor primitivo, como um inteiro.</p>
 
 ## Aula 2: Cast de tipos
 
-<img align="right" width="100px" src="Image04.png" />
+<img align="right" width="120px" src="Image04.png" />
 
-<img align="right" width="100px" src="Image05.png" />
+<img align="right" width="200px" src="Image05.png" />
 
 <p align="justify">Depois disso vimos como fazer as conversões implícitas, feitas automaticamente quando armazenamos o valor de um tipo dentro da variável de um tipo que comporta um valor maior. Essas conversões são feitas automaticamente por serem efetuadas de forma segura.</p>
 
@@ -34,7 +34,7 @@
 
 ## Aula 5: Adicionando membros dinamicamente
 
-<img align="right" width="200px" src="Image05.png" />
+<img align="right" width="300px" src="Image06.png" />
 
 <p align="justify">Mais para o fim do curso, vimos como adicionar membros dinamicamente utilizando instâncias da classe ExpandoObject(). Finalmente, trabalhamos com componentes que foram criados com a tecnologia COM, caso das aplicações que fazem parte do pacote Office. Conseguimos acessar os objetos feitos com a tecnologia COM através da Interoperabilidade acessando esses métodos com variáveis dinâmicas.</p>
 
