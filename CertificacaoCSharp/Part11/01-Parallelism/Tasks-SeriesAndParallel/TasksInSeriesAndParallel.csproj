@@ -3,8 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <AssemblyName>Zambon.Alura.CertificacaoCSharp.TasksInSeriesAndParallel</AssemblyName>
-    <RootNamespace>Zambon.Alura.CertificacaoCSharp.TasksInSeriesAndParallel</RootNamespace>
+    <AssemblyName>Zambon.Alura.CertificacaoCSharp.Parallelism.TasksInSeriesAndParallel</AssemblyName>
+    <RootNamespace>Zambon.Alura.CertificacaoCSharp.Parallelism.TasksInSeriesAndParallel</RootNamespace>
   </PropertyGroup>
 
 </Project>

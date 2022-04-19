@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Zambon.Alura.CertificacaoCSharp.StopingParallelLoop
+namespace Zambon.Alura.CertificacaoCSharp.Parallelism.StopingParallelLoop
 {
     class Program
     {
@@ -14,7 +14,8 @@ namespace Zambon.Alura.CertificacaoCSharp.StopingParallelLoop
             //Tarefa 4: Quantos itens foram processados (parcialmente)?
 
             var resultadoLoop = Parallel.For(0, 100,
-                (int i, ParallelLoopState state) => {
+                (int i, ParallelLoopState state) =>
+                {
 
                     if (i == 75)
                     {

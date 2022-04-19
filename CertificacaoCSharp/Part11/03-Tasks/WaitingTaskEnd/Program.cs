@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Zambon.Alura.CertificacaoCSharp.WaitingTaskEnd
+namespace Zambon.Alura.CertificacaoCSharp.Tasks.WaitingTaskEnd
 {
     class Program
     {

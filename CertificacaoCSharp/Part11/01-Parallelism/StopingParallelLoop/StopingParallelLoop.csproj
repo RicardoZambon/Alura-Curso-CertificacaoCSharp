@@ -7,7 +7,7 @@
     <ProjectGuid>{60E847A3-F654-45D7-A94E-E32493DCD08D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Zambon.Alura.CertificacaoCSharp.StopingParallelLoop</RootNamespace>
-    <AssemblyName>Zambon.Alura.CertificacaoCSharp.StopingParallelLoop</AssemblyName>
+    <AssemblyName>Zambon.Alura.CertificacaoCSharp.Parallelism.StopingParallelLoop</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

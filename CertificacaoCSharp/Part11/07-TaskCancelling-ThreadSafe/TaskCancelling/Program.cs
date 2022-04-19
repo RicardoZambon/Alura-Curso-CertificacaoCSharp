@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Zambon.Alura.CertificacaoCSharp.TaskCancelling
+namespace Zambon.Alura.CertificacaoCSharp.TaskCancellingThreadSafe.TaskCancelling
 {
     //Cancelar uma tarefa de execução longa
     class Program

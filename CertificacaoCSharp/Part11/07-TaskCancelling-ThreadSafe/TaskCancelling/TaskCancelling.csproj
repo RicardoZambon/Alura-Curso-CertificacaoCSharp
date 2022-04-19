@@ -3,8 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <AssemblyName>Zambon.Alura.CertificacaoCSharp.TaskCancelling</AssemblyName>
-    <RootNamespace>Zambon.Alura.CertificacaoCSharp.TaskCancelling</RootNamespace>
+    <AssemblyName>Zambon.Alura.CertificacaoCSharp.TaskCancellingThreadSafe.TaskCancelling</AssemblyName>
+    <RootNamespace>Zambon.Alura.CertificacaoCSharp.TaskCancellingThreadSafe.TaskCancelling</RootNamespace>
   </PropertyGroup>
 
 </Project>

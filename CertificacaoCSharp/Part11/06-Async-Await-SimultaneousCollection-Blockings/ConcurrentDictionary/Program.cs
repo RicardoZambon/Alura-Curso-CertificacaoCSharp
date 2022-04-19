@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 
-namespace Zambon.Alura.CertificacaoCSharp.ConcurrentDictionary
+namespace Zambon.Alura.CertificacaoCSharp.AsyncAwaitSimultaneousCollectionBlockings.ConcurrentDictionary
 {
     //Gerenciar dados usando coleções simultâneas
     class Program

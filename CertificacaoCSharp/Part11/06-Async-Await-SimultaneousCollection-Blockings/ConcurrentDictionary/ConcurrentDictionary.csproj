@@ -5,7 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AssemblyName>Zambon.Alura.CertificacaoCSharp.ConcurrentDictionary</AssemblyName>
     <LangVersion>latest</LangVersion>
-    <RootNamespace>Zambon.Alura.CertificacaoCSharp.ConcurrentDictionary</RootNamespace>
+    <RootNamespace>Zambon.Alura.CertificacaoCSharp.AsyncAwaitSimultaneousCollectionBlockings.ConcurrentDictionary</RootNamespace>
   </PropertyGroup>
 
 </Project>

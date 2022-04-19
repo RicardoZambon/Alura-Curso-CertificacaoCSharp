@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace Zambon.Alura.CertificacaoCSharp.AsyncExceptions
+namespace Zambon.Alura.CertificacaoCSharp.AsyncAwaitSimultaneousCollectionBlockings.AsyncExceptions
 {
     class Program
     {

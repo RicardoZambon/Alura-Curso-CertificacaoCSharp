@@ -1,12 +1,22 @@
 ﻿using System;
 using System.Threading;
+using System.Threading.Tasks;
 
-namespace Zambon.Alura.CertificacaoCSharp.TaskManaging
+namespace Zambon.Alura.CertificacaoCSharp.Tasks.TaskManaging
 {
     class Program
     {
         static void Main(string[] args)
         {
+            var tarefa1 = new Task(() => ExecutaTrabalho(1));
+            tarefa1.Start();
+            tarefa1.Wait();
+
+            var tarefa2 = Task.Run(() => ExecutaTrabalho(2));
+            tarefa2.Wait();
+
+            var tarefa3 = Task.Run<int>(() => CalcularResultado(2, 3));
+            Console.WriteLine($"O resultado é: {tarefa3.Result}");
 
             Console.WriteLine("Término do processamento. Tecle [ENTER] para terminar.");
             Console.ReadLine();

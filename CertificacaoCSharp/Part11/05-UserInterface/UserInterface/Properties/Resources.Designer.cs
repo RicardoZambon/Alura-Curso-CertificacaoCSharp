@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Zambon.Alura.CertificacaoCSharp.UserInterface.Properties {
+namespace Zambon.Alura.CertificacaoCSharp.UserInterface.UserInterface.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Zambon.Alura.CertificacaoCSharp.UserInterface.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Zambon.Alura.CertificacaoCSharp.UserInterface.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Zambon.Alura.CertificacaoCSharp.UserInterface.UserInterface.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

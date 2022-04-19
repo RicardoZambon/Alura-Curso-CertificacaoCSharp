@@ -5,7 +5,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 
-namespace Zambon.Alura.CertificacaoCSharp.QLINQ
+namespace Zambon.Alura.CertificacaoCSharp.PLINQ.QLINQ
 {
     //PLINQ = Parallel LINQ
     class Program

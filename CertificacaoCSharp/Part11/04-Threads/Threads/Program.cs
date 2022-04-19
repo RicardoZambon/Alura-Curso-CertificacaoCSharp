@@ -1,4 +1,4 @@
-﻿namespace Zambon.Alura.CertificacaoCSharp.Threads
+﻿namespace Zambon.Alura.CertificacaoCSharp.Threads.Threads
 {
     class Program
     {

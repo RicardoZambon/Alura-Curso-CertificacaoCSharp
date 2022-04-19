@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Zambon.Alura.CertificacaoCSharp.UserInterface.Properties {
+namespace Zambon.Alura.CertificacaoCSharp.UserInterface.UserInterface.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

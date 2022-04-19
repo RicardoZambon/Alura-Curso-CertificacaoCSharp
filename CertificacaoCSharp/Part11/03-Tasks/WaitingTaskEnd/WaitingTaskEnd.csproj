@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{CED1482A-EED1-4AB9-992A-8388C4086839}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Zambon.Alura.CertificacaoCSharp.WaitingTaskEnd</RootNamespace>
-    <AssemblyName>Zambon.Alura.CertificacaoCSharp.WaitingTaskEnd</AssemblyName>
+    <RootNamespace>Zambon.Alura.CertificacaoCSharp.Tasks.WaitingTaskEnd</RootNamespace>
+    <AssemblyName>Zambon.Alura.CertificacaoCSharp.Tasks.WaitingTaskEnd</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

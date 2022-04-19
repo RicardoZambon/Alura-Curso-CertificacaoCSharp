@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Zambon.Alura.CertificacaoCSharp.NotifyingTaskCancelling
+namespace Zambon.Alura.CertificacaoCSharp.TaskCancellingThreadSafe.NotifyingTaskCancelling
 {
     //Lançando uma exceção quando a tarefa é cancelada
     class Program

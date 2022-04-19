@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Zambon.Alura.CertificacaoCSharp.TasksInSeriesAndParallel
+namespace Zambon.Alura.CertificacaoCSharp.Parallelism.TasksInSeriesAndParallel
 {
     //Task Parallel com Parallel.For / PLINQ / Tasks
     class Program

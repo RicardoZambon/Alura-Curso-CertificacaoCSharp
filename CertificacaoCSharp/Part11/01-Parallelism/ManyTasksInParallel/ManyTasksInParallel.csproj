@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Zambon.Alura.CertificacaoCSharp.ManyTasksInParallel</RootNamespace>
-    <AssemblyName>Zambon.Alura.CertificacaoCSharp.ManyTasksInParallel</AssemblyName>
+    <AssemblyName>Zambon.Alura.CertificacaoCSharp.Parallelism.ManyTasksInParallel</AssemblyName>
   </PropertyGroup>
 
 </Project>

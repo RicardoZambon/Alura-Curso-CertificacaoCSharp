@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Zambon.Alura.CertificacaoCSharp.Blocking
+namespace Zambon.Alura.CertificacaoCSharp.AsyncAwaitSimultaneousCollectionBlockings.Blocking
 {
     class Program
     {

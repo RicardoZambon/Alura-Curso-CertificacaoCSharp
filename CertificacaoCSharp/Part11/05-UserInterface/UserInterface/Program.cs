@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Zambon.Alura.CertificacaoCSharp.UserInterface
+namespace Zambon.Alura.CertificacaoCSharp.UserInterface.UserInterface
 {
     static class Program
     {

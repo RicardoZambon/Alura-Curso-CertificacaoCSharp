@@ -3,8 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <AssemblyName>Zambon.Alura.CertificacaoCSharp.Blocking</AssemblyName>
-    <RootNamespace>Zambon.Alura.CertificacaoCSharp.Blocking</RootNamespace>
+    <AssemblyName>Zambon.Alura.CertificacaoCSharp.AsyncAwaitSimultaneousCollectionBlockings.Blocking</AssemblyName>
+    <RootNamespace>Zambon.Alura.CertificacaoCSharp.AsyncAwaitSimultaneousCollectionBlockings.Blocking</RootNamespace>
   </PropertyGroup>
 
 </Project>

@@ -4,8 +4,8 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <LangVersion>latest</LangVersion>
-    <AssemblyName>Zambon.Alura.CertificacaoCSharp.AsyncExceptions</AssemblyName>
-    <RootNamespace>Zambon.Alura.CertificacaoCSharp.AsyncExceptions</RootNamespace>
+    <AssemblyName>Zambon.Alura.CertificacaoCSharp.AsyncAwaitSimultaneousCollectionBlockings.AsyncExceptions</AssemblyName>
+    <RootNamespace>Zambon.Alura.CertificacaoCSharp.AsyncAwaitSimultaneousCollectionBlockings.AsyncExceptions</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
